@@ -36,10 +36,75 @@ Start the server script and check for errors.
 Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TCP/IP Protocol Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+    }
+    table {
+      width: 80%;
+      margin: auto;
+      border-collapse: collapse;
+      background-color: #fff;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #007BFF;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>TCP/IP Protocol Suite</h1>
+  <table>
+    <tr>
+      <th>Layer</th>
+      <th>Protocols</th>
+      <th>Examples</th>
+    </tr>
+    <tr>
+      <td>Application</td>
+      <td>HTTP, FTP, SMTP, DNS</td>
+      <td>Web browsing, Email, File transfer</td>
+    </tr>
+    <tr>
+      <td>Transport</td>
+      <td>TCP, UDP</td>
+      <td>Reliable delivery, Streaming</td>
+    </tr>
+    <tr>
+      <td>Internet</td>
+      <td>IP, ICMP, ARP</td>
+      <td>Routing, Addressing</td>
+    </tr>
+    <tr>
+      <td>Network Access</td>
+      <td>Ethernet, Wi-Fi</td>
+      <td>Physical transmission</td>
+    </tr>
+  </table>
+</body>
+</html>
 
 ## OUTPUT:
-
+![alt texOneDrive/Pictures/Screenshots/Screenshot 2025-09-18 160924.pngt]
+!(<../../OneDrive/Pictures/Screenshots/Screenshot 2025-09-18 160952.png>) 
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
